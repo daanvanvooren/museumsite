@@ -32,6 +32,11 @@
   margin: 7px 5px 5px 40px !important;
 }
 
+/* Hover color van navbar */
+#block-magazine-lite-main-menu a:hover {
+  color: rgb(255, 174, 0) !important;
+}
+
 /* Geen naam in navbar */
 .onscroll-site-name {
   display: none !important;
@@ -48,4 +53,43 @@
   float: right !important;
   margin-top: -78px !important;
   margin-right: -130px !important;
+}
+
+/* Footer kleur */
+.region--dark-background {
+  background-color: #ececec !important;
+}
+
+/* Footer font kleur */
+.region--light-typography ul.menu li a {
+  color: #141414 !important;
+}
+
+/* Table voor footer */
+table tr th {
+  background-color: rgba(1, 1, 1, 0) !important;
+  border-style: none !important;
+  border-width: 0 0 0px 0 !important;
+  border-color: rgba(1, 1, 1, 0) !important;
+  padding: 15px 20px !important;
+  font-size: 15px !important;
+  color: #2d2d2d !important;
+  text-transform: none !important;
+  font-weight: bold !important;
+}
+
+table tr td {
+  border-style: none !important;
+  border-width: 0 0px 0px 0 !important;
+  border-color: rgba(1, 1, 1, 0) !important;
+  padding: 0px 20px !important;
+  background-color: rgba(1, 1, 1, 0) !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  color: #2d2d2d !important;
+  text-align: left !important;
+}
+
+table tr td a {
+  color: #2d2d2d !important;
 }
