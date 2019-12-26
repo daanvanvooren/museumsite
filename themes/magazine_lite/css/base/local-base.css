@@ -1,0 +1,51 @@
+/**
+ * @file
+ * Use this CSS file to override base CSS rules
+ * Daan Van Vooren & Maxime De Braekeleer
+ */
+
+/* Banner homepage */
+.banner {
+  background-image: url("../../images/museum/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 0px !important;
+  padding: 500px 0 100px;
+}
+
+/* Fontsize van navbar */
+.header-container ul.menu li a {
+  font-size: 25px !important;
+  padding: 5px 23px !important;
+  text-transform: none !important;
+}
+
+/* Hoogte navbar */
+.header__section ul.menu {
+  padding: 25px 0 !important;
+}
+
+/* Size van logo navbar */
+.onscroll-logo {
+  width: 200px;
+  height: auto;
+  margin: 7px 5px 5px 40px !important;
+}
+
+/* Geen naam in navbar */
+.onscroll-site-name {
+  display: none !important;
+}
+
+/* Achtergrondkleur navbar */
+.onscroll .header.js-fixed.region--white-background {
+  background-color: white !important;
+}
+
+/* Zoekbalk bovenaan naast navbar zetten */
+#block-searchform {
+  width: 200px !important;
+  float: right !important;
+  margin-top: -78px !important;
+  margin-right: -130px !important;
+}
