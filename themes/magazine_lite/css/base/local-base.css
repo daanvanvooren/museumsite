@@ -46,6 +46,11 @@
 /* Achtergrondkleur navbar */
 .onscroll .header.js-fixed.region--white-background {
   background-color: white !important;
+  /* background-color: #ececec !important; */
+}
+
+nav {
+  /* background-color: #ececec !important; */
 }
 
 /* Zoekbalk bovenaan naast navbar zetten */
@@ -147,4 +152,22 @@
 
 .agendaLayout table {
   color: blue !important;
+}
+
+/* Padding bij shop linkermenus */
+/* #block-exposedformshoppage-1 {
+  padding-bottom: 0px !important;
+} */
+.sidebar__section .block {
+  padding: 0 0 0px 0 !important;
+}
+
+/* Cart icon inverten (van wit naar zwart) */
+.cart-block--summary__icon {
+  filter: invert(1) !important;
+}
+
+/* Cart icon meer margin geven onderaan */
+.cart--cart-block {
+  margin-bottom: 25px !important;
 }

@@ -1335,8 +1335,11 @@
 }
 
 .fadeInLeft {
-  -webkit-animation-name: fadeInLeft;
-  animation-name: fadeInLeft;
+  /* -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft; */
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
 }
 
 @-webkit-keyframes fadeInLeftBig {
