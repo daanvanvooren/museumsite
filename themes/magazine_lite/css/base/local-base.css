@@ -120,3 +120,14 @@ table tr td a {
 .main-content__section, .sidebar__section {
   padding: 30px 0 70px !important;
 }
+
+/* blauweKleurVoorTag */
+.blauweKleurVoorTag div a {
+  color: rgb(238, 238, 238) !important;
+  background-color: rgb(73, 73, 73) !important;
+  padding: 5px !important;
+}
+
+.collectieItemTitel {
+  font-weight: bold !important;
+}
