@@ -35,7 +35,7 @@
 
 /* Hover color van navbar */
 #block-magazine-lite-main-menu a:hover {
-  color: rgb(255, 174, 0) !important;
+  color: rgb(94, 148, 180) !important;
 }
 
 /* Geen naam in navbar */
@@ -67,7 +67,7 @@
 }
 
 /* Table voor footer */
-table tr th {
+.region-footer-bottom-second table tr th {
   background-color: rgba(1, 1, 1, 0) !important;
   border-style: none !important;
   border-width: 0 0 0px 0 !important;
@@ -79,7 +79,7 @@ table tr th {
   font-weight: bold !important;
 }
 
-table tr td {
+.region-footer-bottom-second table tr td {
   border-style: none !important;
   border-width: 0 0px 0px 0 !important;
   border-color: rgba(1, 1, 1, 0) !important;
@@ -91,7 +91,7 @@ table tr td {
   text-align: left !important;
 }
 
-table tr td a {
+.region-footer-bottom-second table tr td a {
   color: #2d2d2d !important;
 }
 
@@ -99,6 +99,13 @@ table tr td a {
 .eigenContentCenter {
   text-align: center !important;
   font-weight: bold !important;
+}
+
+/* Collectie images hover */
+.imgCollectieHover:hover {
+  filter: opacity(0.9) !important;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
 }
 
 /* Padding bij grid fields */
@@ -130,4 +137,14 @@ table tr td a {
 
 .collectieItemTitel {
   font-weight: bold !important;
+}
+
+/* Layout van de agenda (fullcalanderview) */
+.agendaLayout {
+  margin: 0px 100px 0px 100px !important;
+  text-align: center !important;
+}
+
+.agendaLayout table {
+  color: blue !important;
 }
