@@ -171,3 +171,8 @@ nav {
 .cart--cart-block {
   margin-bottom: 25px !important;
 }
+
+/* Image Info Padding */
+#imgInfo1 {
+  padding: 2px 20px 10px 0px !important;
+}
